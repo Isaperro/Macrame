@@ -1,0 +1,91 @@
+/*agiscono su tutte le pagine*/
+div#header h1{font-family: "Bradley Hand ITC";
+              font-size: 80px;
+              color: chocolate;
+              font-weight: bolder;
+              text-align: center;
+              margin-bottom: 0px;}
+
+body{background-image: linear-gradient(beige, chocolate)}
+
+h2{font-family: Georgia;
+   font-size: 20pt;
+   font-weight: lighter;
+   text-align: center;}
+
+p{font-family: Georgia;
+  font-size: 15pt;
+  text-align: center;}
+
+img{display: block;
+    margin-left: auto;
+    margin-right: auto;}
+
+a:link {color: black;}
+a:hover {color: white;}
+a:visited {color: gray;}
+
+div#navigazione table td{padding: 15px}
+div#navigazione table th{font-weight: normal;
+                         font-size: 15pt;
+                         color: black;}
+div#navigazione {background-color: #e8cbba;}
+
+#tabnavigazione {margin-left: auto;
+                 margin-right: auto;}
+
+div#footer p{font-size: 11pt;}
+div#footer a:link {color: black;}
+div#footer a:hover {color: white;}
+            {position: fixed;
+             bottom: 0px;}
+
+/*agisce su nxc-vetrina*/
+div#categorie{background-color: #e8cbba;}
+div#categorie ul{list-style-type: none;
+                 text-align: center;
+                 color: black;}
+div#categorie li{display: inline;
+                 font-size: 15pt;
+                 margin-right: 10px;
+                 margin-left: 10px;}
+
+details{font-family: Georgia;
+        color: black;
+        border-radius: 15px;
+        background: #e8cbba;
+        margin-left: 5px;
+        width: 300px;}
+
+summary{font-size: 15pt;
+          color: chocolate;
+          width: 300px;}
+
+#tabcategorie td{width: 300px;
+                 padding-left: 15px;
+                 padding-right: 15px;}
+#tabcategorie li{font-size: 14pt;
+                 list-style-type: circle;}
+#tabcategorie {margin-left: auto;
+               margin-right: auto;}
+
+#braccialetti {padding-top: 30px}
+#collane {padding-top: 30px}
+#orecchini {padding-top: 30px}
+
+/*agisce su nxc-materiali*/
+#tabmateriali {margin-left: auto;
+               margin-right: auto;}
+#tabmateriali td{width: 500px;
+                 padding-top: 20px;}
+#tabmateriali li{font-size: 14pt;
+                 text-align: justify;
+                 list-style-type: circle;}
+
+/*agisce su nxc-chisiamo*/
+#chisiamo-descrizione {max-width: 70%;
+                       text-align: justify;
+                       margin-left: auto;
+                       margin-right: auto;}
+figcaption{font-size: 12pt;
+           text-align: center;}
